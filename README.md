@@ -9,6 +9,7 @@ It does contain some tweaks that disable the huggingface safety checker. This is
 
 ## Pre-requisite installs
 1. Python 3.10 on windows: https://www.python.org/downloads/release/python-3100/ [tested on: Windows installer (64-bit)]
+2. At least a 12 GB VRAM Cuda enabled Graphic Card (if you wish to train dreambooth)
 
 # How to Setup
 1. download the repo into your downloads folder
