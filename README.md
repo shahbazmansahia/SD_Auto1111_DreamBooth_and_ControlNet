@@ -12,7 +12,7 @@ It does contain some tweaks that disable the huggingface safety checker. This is
 
 # How to Setup
 1. download the repo into your downloads folder
-<s>2. Extract the zip file in downloads and select 'skip all' for prompts that tell you that a file cannot be copied.</s>
+2. <s>Extract the zip file in downloads and select 'skip all' for prompts that tell you that a file cannot be copied.</s>
 
 (IMPORTANT: the python_fixer file has been programmed to only work if the folder is in downloads. It will have to be re-written if you either move the 'booth_tested_stable-diffusion-webui' to some other directory or your default directory for your browser/windows has been changed)
 
