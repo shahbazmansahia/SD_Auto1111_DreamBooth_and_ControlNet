@@ -18,6 +18,7 @@ It does contain some tweaks that disable the huggingface safety checker. This is
 4.  double click/execute/Run python_fixer.bat
 5.  Run webui.bat or webui-user.bat and you should be good to go =D
 
-You can use the guide listed here to get started on training your own dreambooth model! URL: https://github.com/d8ahazard/sd_dreambooth_extension/wiki/ELI5-Training
+You can use the guide listed here to get started on training your own dreambooth model! 
+URL: https://github.com/d8ahazard/sd_dreambooth_extension/wiki/ELI5-Training
 
 <strong>NOTE: </strong>you will need to run the 'dreambooth_output_fixer.bat' file every time you train your own custom dreambooth model to disable the safety checker. This is done because the automatic1111 build given here detects all dreambooth model outputs as nsfw even if they contain no nsfw elements. please do not remove or relocate the 'dreambooth_output_fixer.bat', 'pipeline_stable_diffusion.py' and 'pipeline_stable_diffusion_safe.py' files as this will break the dreambooth_output_fixer.bat code (which means you'll have to manually go in and replace/or code the relevant files every time you're done training a dreambooth model.
