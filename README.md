@@ -5,6 +5,8 @@ This was mostly prompted by broken dependencies due to updates in diffusers and 
 
 It does contain some tweaks that disable the huggingface safety checker. This is not done to encourage unethical conduct (please don't download this if you intend to do that) but rather because trained dreambooth models would only generate blocked/censored images for some reason (the safety checker would pick up nsfw elements in perfectly sfw images)
 
+### This only works with stable-diffusion 1.5 for now. Do not try to run it on any 2.x model since that functionality is broken as of right now!
+
 ## Pre-requisite installs
 1. Python 3.10 on windows: https://www.python.org/downloads/release/python-3100/ [tested on: Windows installer (64-bit)]
 
