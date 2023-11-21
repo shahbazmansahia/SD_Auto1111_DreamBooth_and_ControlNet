@@ -16,7 +16,7 @@ It does contain some tweaks that disable the huggingface safety checker. This is
 
 (IMPORTANT: the python_fixer file has been programmed to only work if the folder is in downloads. It will have to be re-written if you either move the 'booth_tested_stable-diffusion-webui' to some other directory or your default directory for your browser/windows has been changed)
 
-3.  place 'python_fixer.bat' in 'booth_tested_stable-diffusion-webui'
+3.  Navigate to 'booth_tested_stable-diffusion-webui' containing all the files (this may vary depending on how you extract the files)
 4.  double click/execute/Run python_fixer.bat
 5.  Run webui.bat or webui-user.bat and you should be good to go =D
 
